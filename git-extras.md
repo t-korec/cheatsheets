@@ -1,6 +1,7 @@
 ---
 title: Git extras
 category: Git
+layout: 2017/sheet
 ---
 
 ### Git-flow

@@ -10,7 +10,8 @@ services:
       - '4001:4001'
       - '35729:35729'
     command: 'env PORT=4001 HOST=0.0.0.0 yarn run dev'
-
+    security_opt:
+      - apparmor=unconfined
 volumes:
   rubygems:
   node_modules:
